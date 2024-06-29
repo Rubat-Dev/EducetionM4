@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    font-family: 'poppins',sans-serif;
+}
+.section-3{
+    background: url('https://mobirise.com/extensions/educationm4/assets/images/background1.jpg') no-repeat center center / cover;
+}
+.section-5{
+    min-height: 80vh;
+    background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2QwMXh2aWdtaXVscW85dzh5dTJwamJxMzBpMnpyMnA5MTl6YXNnbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JsEF4IkFC7gEM23aGE/giphy.gif') no-repeat center center / cover;
+}
+.before-Div::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+    opacity: 0.5;
+    z-index: 1;
+}
+.before-Div:hover.before-Div::before{
+    background: black;
+    cursor: pointer;
+}
+.before-Div i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 40px;
+    visibility: hidden;
+}
+.before-Div:hover i {
+    visibility: visible;
+}
+.section-9{
+    min-height: 80vh;
+    background: url('https://mobirise.com/extensions/educationm4/assets/images/background1.jpg') no-repeat center center/cover;
+    filter: brightness(85%);
+}
+/*====================
+  SwiperJs
+======================
+*/
+/* .swiper {
+  width: 80vw;
+  height: 70vh;
+} */
+
+/*====================
+  Responsive
+======================
+*/
+@media(max-width:992px){
+    .head1{font-size: 35px !important;}
+}
+@media(min-width:768px) and (max-width:900px){
+    .head2{font-size: 18px !important;}
+}
+
+
+
+
+
+

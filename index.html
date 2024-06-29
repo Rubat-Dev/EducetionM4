@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind web</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--tailwind cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--styleCss-->
+    <link rel="stylesheet" href="./style.css">
+    <!--ioicons-->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>    <!--header-->
+    <header class="sticky top-0 bg-white z-20 py-3"> 
+        <nav class="md:flex items-center">
+             <div class="logo flex items-center justify-center basis-4/12">
+                       <a href="">
+                            <img src="https://mobirise.com/extensions/educationm4/assets/images/logo.png" class="h-16 me-3">
+                       </a>
+                       <span class="text-xl font-semibold">EducationM4</span>
+             </div>
+             <div class="md:flex items-center sm:basis-9/12 px-3">
+                  <ul type="none" class="flex items-center justify-center gap-5 basis-9/12 sm:text-lg py-2">
+                       <li><a href="#">Home</a></li>
+                       <li class="relative"><a href="#" class="">Live Demo</a></li>
+                       <li class="relative"><a href="" class="">Demo Blocks</a></li>
+                  </ul>
+                  <div class="flex sm:basis-3/12">
+                  <button class="px-3 py-2 bg-blue-900 text-white rounded-md shadow hover:bg-black duration-300 font-semibold ms-3 sm-w-0 w-full me-3">Buy Now</button>
+                  </div>
+             </div>
+        </nav>
+             </header>
+            <!--section-1-->
+           <section class="section-1 md:flex items-center mb-10">
+                  <div class="left basis-1/2 bg-blue-950 text-white items-center md:h-[520px]"> 
+                       <div class="content lg:px-12 md:px-8 sm:px-12 px-5 md:py-0 py-10">
+                            <h1 class="head1 sm:text-5xl lg:text-6xl text-3xl font-semibold py-5">Innovation and Discovery</h1>
+                            <p class="my-10 font-medium text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl elit, varius ut magna vel, tincidunt iaculis sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                            <a href="" class="px-2 py-3 bg-blue-500 rounded-md hover:bg-white hover:text-blue-500 duration-300 sm:me-5 sm:inline block sm:mb-0 mb-5 text-center">sign up for Execution</a>
+                            <a href="" class="px-2 py-3 bg-transparent border-2 border-white rounded-md hover:bg-white hover:text-black duration-300 sm:inline block text-center">Learn More</a>
+                       </div>
+                  </div>
+                  <div class="right basis-1/2 md:h-[520px]">
+                        <img src="https://mobirise.com/extensions/educationm4/assets/images/010.jpg" alt="..." class="w-full h-full object-cover">
+                   </div> 
+           </section> 
+            <!--section-2-->
+           <section class="section-2 mb-10 text-center flex flex-col justify-center items-center gap-4" id="counter">
+            <h1 class="text-5xl font-semibold head1">Staticstics</h1>
+            <div class="bg-black my-10 w-20 mx-auto h-[5px]"></div>
+            <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus enim maiores ut saepe praesentium magni.</p>
+            <div class="card  sm:flex flex-wrap justify-center w-[80%] mx-auto">
+                <!--card1-->
+                <div class="card flex flex-col gap-y-4 sm:basis-6/12 md:basis-3/12">
+                    <div class="border-2 rounded-full w-[120px] h-[120px] grid place-content-center mx-auto">
+                   <ion-icon name="person-circle-outline" class="text-6xl"></ion-icon>
+                    </div>
+                    <h1 class="text-3xl text-sky-500 font-semibold" id="count1">156</h1> 
+                    <div class= "bg-gray-600 w-10 mx-auto h-[3px]"></div>
+                     <h5 class="text-xl">Professors</h5>
+                </div>
+                <!--card2 end-->
+        
+                <div class="card flex flex-col gap-y-4 md:basis-3/12 sm:basis-6/12">
+                    <div class="border-2 rounded-full w-[120px] h-[120px] grid place-content-center mx-auto">
+                   <ion-icon name="home-outline" class="text-6xl"></ion-icon>
+                    </div>
+                    <h1 class="text-3xl text-sky-500 font-semibold" id="count2">12</h1> 
+                    <div class= "bg-gray-600 w-10 mx-auto h-[3px]"></div>
+                     <h5 class="text-xl">Professors</h5>
+                </div>
+                <!--card 3-->
+        
+                <div class="card flex flex-col gap-y-4 sm:basis-6/12 md:basis-3/12">
+                    <div class="border-2 rounded-full w-[120px] h-[120px] grid place-content-center mx-auto">
+                   <ion-icon name="cloud-outline" class="text-6xl"></ion-icon>
+                    </div>
+                    <h1 class="text-3xl text-sky-500 font-semibold" id="count3">357</h1> 
+                    <div class= "bg-gray-600 w-10 mx-auto h-[3px]"></div>
+                     <h5 class="text-xl">Professors</h5>
+                </div>
+                <!--card4-->
+                <div class="card flex flex-col gap-y-4 sm:basis-6/12 md:basis-3/12 sm:">
+                    <div class="border-2 rounded-full w-[120px] h-[120px] grid place-content-center mx-auto">
+                   <ion-icon name="document-outline" class="text-6xl"></ion-icon>
+                    </div>
+                    <h1 class="text-3xl text-sky-500 font-semibold" id="count4">346</h1> 
+                    <div class= "bg-gray-600 w-10 mx-auto h-[3px]"></div>
+                     <h5 class="text-xl">Professors</h5>
+                </div>
+            </div>
+           </section>
+           <!--section-3-->
+           <section class="section-3 mb-10 text-center flex flex-col  items-center py-10 bg-cover relative" id="product">
+            <h1 class="text-5xl font-semibold head1">Featured Programs</h1>
+            <div class="bg-black my-10 w-20 mx-auto h-[5px]"></div>
+            <p class="mb-10 px-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus enim maiores ut.</p>
+            <div class="cards text-white flex flex-col sm:flex-row flex-wrap justify-center w-[80%] mx-auto gap-y-5">
+                <!--card1-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative group overflow-hidden">
+                <img src="https://mobirise.com/extensions/educationm4/assets/images/010.jpg" alt="...">
+                <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Anthropology</h5>
+                <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                </div>
+                <!--card2-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative group overflow-hidden">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/021.jpg" alt="...">
+                    <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Mathematics</h5>
+                    <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                    </div>
+                    <!--card3-->
+                    <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative group overflow-hidden">
+                        <img src="https://mobirise.com/extensions/educationm4/assets/images/032.jpg" alt="...">
+                        <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Psychology</h5>
+                        <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                        </div>
+                <!--card4-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2 relative overflow-hidden group">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/044.jpg" alt="...">
+                         <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Programming</h5>
+                    <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                    </div>
+                    <!--card-5-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative overflow-hidden group">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/065.jpg" alt="...">
+                         <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Copywritting</h5>
+                    <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                    </div>
+                    <!--card-6-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative overflow-hidden group">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/07.jpg" alt="...">
+                         <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Economics</h5>
+                    <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                    </div>
+                    <!--card-7-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative overflow-hidden group">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/08.jpg" alt="...">
+                         <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Physics</h5>
+                    <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+                    </div>
+                    <!--card-8-->
+                <div class="card text-center sm:basis-6/12 md:basis-3/12 px-2  relative overflow-hidden group">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/09.jpg" alt="...">
+                         <h5 class="text-xl bg-white text-blue-700 py-3 font-semibold relative head2">Design</h5>
+                    <a href="" class="bg-blue-700 px-3 py-2 rounded-lg hover:bg-white hover:text-blue-700 duration-500 absolute w-[140px] left-1/2 bottom-[-100%] -translate-x-1/2 -translate-y-1/2  group-hover:bottom-[20%]">view program</a>
+               </div> 
+                    </div>
+            
+           </section>
+          <!--section-4-->
+           <section class="section-4 mb-10 flex flex-col md:flex-row items-center gap-10 w-[80%] mx-auto">
+               <div class="left md:basis-7/12 w-full">
+             <h1 class="text-2xl xs:text-3xl sm:text-4xl leading-tight font-bold tracking-wide head1">A Few Words</h1>
+             <h1 class="text-2xl xs:text-3xl sm:text-4xl leading-tight font-bold tracking-wide head1">About The University</h1>
+             <div class="w-20 h-1 bg-black mt-2"></div>
+             <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl elit, varius ut magna vel, tincidunt iaculis sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+             <a href="/" class="border-2 border-black rounded-md px-3 py-2 hover:bg-blue-950 hover:text-white duration-300">Learn More <i class="fa-solid fa-arrow-right-long mt-4"></i></a>
+        </div>
+        <div class="right mx-auto md:basis-5/12 w-full h-full">
+             <img src="https://mobirise.com/extensions/educationm4/assets/images/logo.png" class="w-full mx-auto">
+        </div>
+           </section>
+        <!--section-5-->
+           <section class="section-5 flex flex-col md:flex-row items-center justify-center gap-10 w-[100%]">
+          <div class="flex flex-col flex-wrap items-center text-white font-semibold sm:gap-10 gap-5 md:mt-10 mt-24 text-center mx-auto">
+               <h1 class="md:text-4xl sm:text-3xl text-2xl head1">Trusted by Over 5000+ Students</h1>
+               <p class="px-8">Lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+               <button class="px-8 py-3 bg-sky-600 text-white rounded-md shadow hover:bg-white hover:text-black duration-300 font-semibold ms-3">Buy Now</button>
+          </div>
+           </section>
+        <!--section-6-->
+           <section class="section-6 md:flex w-full" id="calculation">
+          <div class="left basis-7/12">
+               <div class="content text-center px-5 py-20">
+               <h1 class="sm:text-5xl lg:text-6xl text-3xl font-bold head1">Our Features</h1>
+               <p class="py-5 text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nisi non arcu rutrum molestie. Phasellus vel vehicula enim. Nullam congue porttitor posuere.
+               </p>
+               <div class="cards sm:flex flex-wrap lg:px-10">
+                    <!--card-1-->
+                    <div class="card flex sm:basis-6/12 h-[120px] justify-center">
+                         <div class="rounded-full grid place-content-center">
+                        <ion-icon name="person-circle-outline" class="text-7xl"></ion-icon>
+                         </div>
+                         <div class="grid place-content-center">
+                         <h1 class="text-4xl text-sky-500 font-semibold" id="calculate1">156</h1>
+                          <h5 class="text-xl">Professors</h5>
+                          </div>
+                    </div>
+                    <!--card-2-->
+                    <div class="card flex sm:basis-6/12 h-[120px] justify-center">
+                         <div class="rounded-full grid place-content-center">
+                              <ion-icon name="home-outline" class="text-7xl"></ion-icon>
+                         </div>
+                         <div class="grid place-content-center">
+                         <h1 class="text-4xl text-sky-500 font-semibold" id="calculate2">12</h1>
+                          <h5 class="text-xl">Campuses</h5>
+                         </div>
+                    </div>
+                    <!--card-3-->
+                    <div class="card flex sm:basis-6/12 h-[120px] justify-center">
+                         <div class="rounded-full grid place-content-center">
+                              <ion-icon name="cloud-outline" class="text-7xl"></ion-icon>
+                         </div>
+                         <div class="grid place-content-center">
+                         <h1 class="text-4xl text-sky-500 font-semibold" id="calculate3">3257</h1>
+                          <h5 class="text-xl">Students</h5>
+                         </div>
+                    </div>
+                    <!--card-4-->
+                    <div class="card flex sm:basis-6/12 h-[120px] justify-center">
+                         <div class="rounded-full grid place-content-center">
+                              <ion-icon name="person-circle-outline" class="text-7xl"></ion-icon>
+                         </div>
+                         <div class="grid place-content-center">
+                         <h1 class="text-4xl text-sky-500 font-semibold" id="calculate4">346</h1>
+                          <h5 class="text-xl">Courses</h5>
+                         </div>
+                    </div>
+                     </div>
+               </div>
+               </div>
+          </div>
+          <div class="right left basis-5/12">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/053.jpg" alt="" class="w-full h-full object-cover">
+          </div>
+           </section>
+        <!--section-7-->
+          <section class="section-7 md:flex-row flex-wrap flex-col items-center w-[100%] mx-auto">
+          <div class="cards text-white flex flex-col sm:flex-row flex-wrap justify-center mx-auto">
+               <!--card1-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/010.jpg" alt="..." class="h-full">
+               <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-2-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/021.jpg" alt="..." class="h-full">
+               <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-3-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/032.jpg" alt="..." class="h-full">
+               <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-4-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/044.jpg" alt="..." class="h-full">
+               <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-5-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/065.jpg" alt="" class="h-full">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-6-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/07.jpg" alt="" class="h-full">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-7-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/08.jpg" alt="" class="h-full">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+               <!--card-8-->
+               <div class="before-Div sm:basis-6/12 md:basis-3/12 relative overflow-hidden">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/09.jpg" alt="" class="h-full">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+        </section>
+        <!--section-8-->
+        <section class="section-8 my-10 text-center flex flex-col justify-center items-center w-[100%] gap-5">
+          <h1 class="text-5xl font-bold head1">Our Team</h1>
+          <div class="bg-black my-3 w-[100px] mx-auto h-[4px]"></div>
+          <div class="cards sm:flex flex-wrap justify-center lg:w-full sm:w-[80%] mx-auto">
+               <!--card-1-->
+               <div class="lg:basis-3/12 sm:basis-6/12 basis-9/12 p-3 rounded-lg">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/face4.jpg" alt="" class="rounded-lg">
+                    <h5 class="text-xl text-sky-800 font-bold p-2 text-start">Jessica Lee</h5>
+               </div>
+               <!--card-2-->
+               <div class="lg:basis-3/12 sm:basis-6/12 p-3 rounded-lg">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/face3.jpg" alt="" class="rounded-lg">
+                    <h5 class="text-xl text-sky-800 font-bold p-2 text-start">John Bennett</h5>
+               </div>
+               <!--card-3-->
+               <div class="lg:basis-3/12 sm:basis-6/12 p-3 rounded-lg">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/face1.jpg" alt="" class="rounded-lg">
+                    <h5 class="text-xl text-sky-800 font-bold p-2 text-start">Oliver Doe</h5>
+               </div>
+               <!--card-4-->
+               <div class="lg:basis-3/12 sm:basis-6/12 p-3 rounded-lg">
+                    <img src="https://mobirise.com/extensions/educationm4/assets/images/face2.jpg" alt="" class="rounded-lg">
+                    <h5 class="text-xl text-sky-800 font-bold p-2 text-start">Christina Hardy</h5>
+               </div>
+               </div>
+          </section>
+     <!--section-9-->
+     <section class="section-9 w-[100%] flex items-center justify-center">
+          <!-- Swiper -->
+  <div class="swiper mySwiper lg:w-[70%] md:w-[90%] h-[50%]">
+     <div class="swiper-wrapper my-3">
+          <!--slide-1-->
+       <div class="swiper-slide sm:flex">
+          <div class="content sm:text-white text-gray-600 md:basis-8/12 sm:basis-7/12 md:flex flex-col items-center justify-center sm:mb-0 mb-5">
+          <p class="p-5 font-bold text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+          <h4 class="ms-auto font-bold text-center sm:text-end">Helen Smith</h4>
+          <h6 class="ms-auto text-sm text-center sm:text-end">Student</h6>
+          </div>
+          <div class="card md:basis-4/12 sm:basis-5/12 rounded-2xl flex items-center p-4">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/face2.jpg" alt="" class="sm:h-full sm:w-full w-[300px] h-[300px] object-cover rounded-2xl mx-sm-start mx-auto">
+          </div>
+       </div>
+       <!--slide-2-->
+       <div class="swiper-slide sm:flex">
+          <div class="content sm:text-white text-gray-600 md:basis-8/12 sm:basis-7/12 md:flex flex-col items-center justify-center sm:mb-0 mb-5">
+          <p class="p-5 font-bold text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+          <h4 class="ms-auto font-bold text-center sm:text-end">Helen Smith</h4>
+          <h6 class="ms-auto text-sm text-center sm:text-end">Student</h6>
+          </div>
+          <div class="card md:basis-4/12 sm:basis-5/12 rounded-2xl flex items-center p-4">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/face3.jpg" alt="" class="sm:h-full sm:w-full w-[300px] h-[300px] object-cover rounded-2xl mx-sm-start mx-auto">
+          </div>
+       </div>
+       <!--slide-3-->
+       <div class="swiper-slide sm:flex">
+          <div class="content sm:text-white text-gray-600 md:basis-8/12 sm:basis-7/12 md:flex flex-col items-center justify-center sm:mb-0 mb-5">
+          <p class="p-5 font-bold text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+          <h4 class="ms-auto font-bold text-center sm:text-end">Helen Smith</h4>
+          <h6 class="ms-auto text-sm text-center sm:text-end">Student</h6>
+          </div>
+          <div class="card md:basis-4/12 sm:basis-5/12 rounded-2xl flex items-center p-5">
+               <img src="https://mobirise.com/extensions/educationm4/assets/images/face1.jpg" alt="" class="sm:h-full sm:w-full w-[300px] object-cover rounded-2xl mx-sm-start mx-auto">
+          </div>
+       </div>
+     </div>
+     <!-- <div class="swiper-button-next"></div> -->
+     <!-- <div class="swiper-button-prev"></div> -->
+     <div class="swiper-pagination"></div>
+   </div>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     </section>  
+     <!--section-10-->
+     <section class="section-10 mt-10 flex flex-col justify-center items-center">
+          <h2 class="text-5xl font-bold text-center pt-5 head1">Students Table</h2>
+          <div class="h-[5px] bg-black my-5 w-20 mx-auto text-center"></div>
+          <table class="my-5 lg:w-[70%] md:w-[90%] w-[100%]">
+               <tr class="bg-blue-900 text-white">
+               <th class="py-2">#</th>
+               <th class="py-2">Name</th>
+               <th class="py-2">Age</th>
+               <th class="py-2">UserName</th>
+               </tr>
+               <tr class="border border-bottom-1 text-center">
+                    <td class="py-2">1</td>
+                    <td class="py-2">Jeanna Schmal</td>
+                    <td class="py-2">22</td>
+                    <td class="py-2">@Jenna</td>
+               </tr>
+               <tr class="border border-bottom-1 text-center">
+                    <td class="py-2">2</td>
+                    <td class="py-2">Caren Rials</td>
+                    <td class="py-2">23</td>
+                    <td class="py-2">@Caren</td>
+               </tr>
+               <tr class="border border-bottom-1 text-center">
+                    <td class="py-2">3</td>
+                    <td class="py-2">Leon Rogol</td>
+                    <td class="py-2">18</td>
+                    <td class="py-2">@leon</td>
+               </tr>
+               <tr class="border border-bottom-1 text-center">
+                    <td class="py-2">4</td>
+                    <td class="py-2">Shala Barrera</td>
+                    <td class="py-2">21</td>
+                    <td class="py-2">@shala</td>
+               </tr>
+          </table>
+     </section>  
+     <!--section-11-->
+     <section class="section-10 my-10 flex flex-col justify-center items-center">
+          <h1 class="text-5xl font-bold text-center head1">Skill Bars</h1>
+          <div class="h-[4px] bg-black my-5 w-12 mx-auto text-center"></div>
+          <div class="lg:w-[50%] sm:w-[70%] w-[80%] mx-auto">
+               <!--progress-1-->
+               <div class="mb-8">
+               <h2 class="flex justify-between px-1 text-gray-500 sm:text-xl text-lg text-bold">
+                    <span>Law</span>
+                    <span>43%</span>
+               </h2>
+               <div class="w-full h-5 bg-gray-200 rounded-md overflow-hidden">
+                    <div class="h-full bg-sky-600" style="width:43%;"></div>
+               </div>
+               </div>
+               <!--progress-2-->
+               <div class="mb-8">
+               <h2 class="flex justify-between px-1 text-gray-500 sm:text-xl text-lg text-bold">
+                    <span>Mathematics</span>
+                    <span>73%</span>
+               </h2>
+               <div class="w-full h-5 bg-gray-200 rounded-md overflow-hidden">
+                    <div class="h-full bg-sky-600" style="width:73%;"></div>
+               </div>
+               </div>
+               <!--progress-3-->
+               <div class="mb-8">
+               <h2 class="flex justify-between px-1 text-gray-500 sm:text-xl text-lg text-bold">
+                    <span>Physics</span>
+                    <span>90%</span>
+               </h2>
+               <div class="w-full h-5 bg-gray-200 rounded-md overflow-hidden">
+                    <div class="h-full bg-sky-600" style="width:90%;"></div>
+               </div>
+               </div>
+               <!--progress-4-->
+               <div class="mb-8">
+               <h2 class="flex justify-between px-1 text-gray-500 sm:text-xl text-lg text-bold">
+                    <span>Computer Science</span>
+                    <span>100%</span>
+               </h2>
+               <div class="w-full h-5 bg-gray-200 rounded-md overflow-hidden">
+                    <div class="h-full bg-sky-600" style="width:100%;"></div>
+               </div>
+               </div>
+          </div>
+     </section> 
+     <!--section-12-->
+     <section class="section-12 lg:flex items-center mb-20 w-100">
+          <div class="left basis-1/2 h-[750px]">
+               <img src="boy1.png" alt="" class="w-full h-full object-cover">
+          </div>
+          <div class="right basis-1/2 h-[750px] bg-blue-950 text-white items-center">
+               <form action="" class="w-[80%] mx-auto py-5">
+                    <h2 class="sm:text-5xl text-4xl font-bold head1">Fill in the<br>Form</h2>
+                    <div class="h-[4px] bg-white my-5 w-8"></div>
+                    <div class="flex flex-col gap-2 mb-2">
+                         <label for="">First Name</label>
+                         <input type="text" placeholder="Your First Name" class="py-3 sm:w-[90%] w-full px-3">
+                    </div>
+                    <div class="flex flex-col gap-2 mb-2">
+                         <label for="">Last Name</label>
+                         <input type="text" placeholder="Your Last Name" class="py-3 sm:w-[90%] w-full px-3">
+                    </div>
+                    <div class="flex flex-col gap-2 mb-2">
+                         <label for="">Phone</label>
+                         <input type="number" placeholder="Your Phone Number" class="py-3 sm:w-[90%] w-full px-3">
+                    </div>
+                    <div class="flex flex-col gap-2 mb-2">
+                         <label for="">E-mail</label>
+                         <input type="email" placeholder="E-mail" class="py-3 sm:w-[90%] w-full px-3">
+                    </div>
+                    <div class="flex flex-col gap-2 mb-2">
+                         <label for="">Department</label>
+                         <input type="text" placeholder="Your Department" class="py-3 sm:w-[90%] w-full px-3">
+                    </div>
+                    <div class="flex flex-col gap-2 mb-5">
+                         <label for="">Add File</label>
+                         <input type="file" placeholder="Your Department" class="py-3 sm:w-[90%] w-full px-3 bg-white">
+                    </div>
+                    <a class="bg-sky-500 p-3 my-5 rounded-md hover:bg-white hover:text-black duration-500">Send Message</a>
+                    
+               </form>
+          </div>
+     </section>
+     <!--section-13-->
+    <section class="my-10 sm:flex justify-around lg:justify-center gap-5 lg:gap-[8vw] flex-wrap min-h-[300px] py-10 w-[90%] mx-auto sm:w-full">
+     <!--column-1-->
+     <div class="text-center md:basis-3/12 lg:basis-2/12 flex justify-center items-center flex-col">
+          <img src="https://mobirise.com/extensions/educationm4/assets/images/logo.png" alt="" class="w-48 h-40 md:w-40 md:h-32 ">
+          <h2 class="text-lg text-bold">Company Name</h2>
+          <h6 class="text-sm text-gray-500">University</h6>
+     </div>
+     <!--column-2-->
+     <div class="text-gray-500 md:basis-3/12 lg:basis-2/12 flex flex-col gap-5 justify-between">
+      <div>
+           <h2 class="text-lg text-bold py-2">Contacts</h2>
+           <div class="h-[1px] bg-gray-400 w-full">
+                <div class="h-full bg-sky-400 w-[15%]"></div>
+           </div>
+      </div>
+          <div class="flex flex-col gap-3">
+               <h1><i class="fa-solid fa-mobile-screen me-4"></i> 123-456-78901</h1>
+               <h1><i class="fa-solid fa-location-dot me-4"></i>London, 51 Street, 43</h1>
+               <h1><i class="fa-regular fa-envelope me-4"></i>name@site.com</h1>
+          </div>
+          <div class="flex gap-2 text-gray-600 text-xl text-center">
+               <div class="w-[40px] h-[40px] rounded-full bg-gray-200 hover:bg-gray-100 duration-300">
+                    <i class="fa-brands fa-twitter leading-[40px]"></i>
+               </div>
+               <div class="w-[40px] h-[40px] rounded-full bg-gray-200 hover:bg-gray-100 duration-300">
+                    <i class="fa-brands fa-facebook-f leading-[40px]"></i>
+               </div>
+               <div class="w-[40px] h-[40px] rounded-full bg-gray-200 hover:bg-gray-100 duration-300">
+                <i class="fa-brands fa-google-plus-g leading-[40px]"></i>
+               </div>
+               <div class="w-[40px] h-[40px] rounded-full bg-gray-200 hover:bg-gray-100 duration-300">
+                    <i class="fa-brands fa-skype leading-[40px]"></i>
+               </div>
+               <div class="w-[40px] h-[40px] rounded-full bg-gray-200 hover:bg-gray-100 duration-300">
+                    <i class="fa-brands fa-instagram leading-[40px]"></i>
+               </div>
+          </div>
+     </div>
+     <!--column-3-->
+     <div class="text-gray-500 sm:basis-8/12  md:basis-2/12 lg:basis-3/12 flex flex-col justify-between gap-5">
+      <div>
+           <h2 class="text-lg text-bold py-2">Newsletter</h2>
+           <div class="h-[1px] bg-gray-400 w-full">
+                <div class="h-[1px] bg-sky-400 w-[15%]"></div>
+           </div>  
+      </div>    
+          <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quisquam hic minima officiis labore. Autem iste maiores, impedit quasi, incidunt voluptatibus.</p>
+          <form class="bg-red-400 grid w-full" style="grid-template-columns: 70% 30% ;">
+          <input type="email" placeholder="Your e-mail" class="border py-3 text-gray-500 px-2 outline-none">
+          <input type="submit" value="Subscribe" class=" bg-sky-600 text-white py-3 px-2 flex-1">
+          </form>
+     </div>
+</section>
+     <!--section-14-->
+     <section class="section-14 w-full">
+          <div class="google-map">
+          <iframe class="w-[100%]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83999.59242729584!2d2.2119100150462985!3d48.85845326418863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe1f3bfb4ad%3A0x7bd31375becf28cd!2sEiffel%20Tower%2C%205%20Av.%20Anatole%20France%2C%2075007%20Paris%2C%20France!5e0!3m2!1sen!2s!4v1708551518884!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          </div>
+     </section>
+     <!--script.js-->
+   <script src="./script.js"></script>
+</body>
+</html>
